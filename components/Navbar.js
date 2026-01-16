@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-left">
-        <img src="/logo.png" alt="ToxicLabs" className="logo" />
+        <img src="https://files.catbox.moe/5ee0l9.jpg" alt="ToxicLabs" className="logo" />
         <span className="brand">ToxicLabs</span>
       </div>
 
