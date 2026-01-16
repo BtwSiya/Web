@@ -1,6 +1,17 @@
-export const products = Array.from({ length: 15 }).map((_, i) => ({
-  id: i + 1,
-  name: `ToxicLabs Street Tee ${i + 1}`,
-  price: 999 + i * 50,
-  image: "https://via.placeholder.com/400x400?text=ToxicLabs",
-}));
+export const products = [
+  { id: 1, name: "ToxicLabs Street Tee 1", price: 999, image: "/products/1.jpg" },
+  { id: 2, name: "ToxicLabs Street Tee 2", price: 1049, image: "/products/2.jpg" },
+  { id: 3, name: "ToxicLabs Street Tee 3", price: 1099, image: "/products/3.jpg" },
+  { id: 4, name: "ToxicLabs Street Tee 4", price: 1149, image: "/products/4.jpg" },
+  { id: 5, name: "ToxicLabs Street Tee 5", price: 1199, image: "/products/5.jpg" },
+  { id: 6, name: "ToxicLabs Street Tee 6", price: 1249, image: "/products/6.jpg" },
+  { id: 7, name: "ToxicLabs Street Tee 7", price: 1299, image: "/products/7.jpg" },
+  { id: 8, name: "ToxicLabs Street Tee 8", price: 1349, image: "/products/8.jpg" },
+  { id: 9, name: "ToxicLabs Street Tee 9", price: 1399, image: "/products/9.jpg" },
+  { id: 10, name: "ToxicLabs Street Tee 10", price: 1449, image: "/products/10.jpg" },
+  { id: 11, name: "ToxicLabs Street Tee 11", price: 1499, image: "/products/11.jpg" },
+  { id: 12, name: "ToxicLabs Street Tee 12", price: 1549, image: "/products/12.jpg" },
+  { id: 13, name: "ToxicLabs Street Tee 13", price: 1599, image: "/products/13.jpg" },
+  { id: 14, name: "ToxicLabs Street Tee 14", price: 1649, image: "/products/14.jpg" },
+  { id: 15, name: "ToxicLabs Street Tee 15", price: 1699, image: "/products/15.jpg" },
+];
