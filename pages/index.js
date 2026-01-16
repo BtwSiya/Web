@@ -1,3 +1,5 @@
+<h1>Official ToxicLabs Store</h1>
+<p>Premium Streetwear · Dark · Unfiltered</p>
 import Link from "next/link";
 import { products } from "../data/products";
 
